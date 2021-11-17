@@ -16,6 +16,7 @@ const autoCompleteConfig = {
         s: searchTerm
       }
     });
+  
 
     if (response.data.Error) {
       return [];
